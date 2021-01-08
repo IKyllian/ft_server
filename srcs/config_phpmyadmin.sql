@@ -1,6 +1,6 @@
-CREATE DATABASE app_db;
+CREATE DATABASE phpmyadmin;
 
-GRANT ALL PRIVILEGES ON app_db.* TO 'user'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON *.* TO 'pikachu'@'localhost' IDENTIFIED BY 'pikachu';
 
 FLUSH PRIVILEGES;
 
