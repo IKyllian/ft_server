@@ -1,0 +1,7 @@
+CREATE DATABASE app_db;
+
+GRANT ALL PRIVILEGES ON app_db.* TO 'user'@'localhost' IDENTIFIED BY 'password';
+
+FLUSH PRIVILEGES;
+
+EXIT;
