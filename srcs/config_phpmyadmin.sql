@@ -1,7 +1,0 @@
-CREATE DATABASE phpmyadmin;
-
-GRANT ALL PRIVILEGES ON *.* TO 'pikachu'@'localhost' IDENTIFIED BY 'pikachu';
-
-FLUSH PRIVILEGES;
-
-EXIT;

@@ -1,5 +1,5 @@
 <?php
-$cfg['blowfish_secret'] = 'CfX1la/aG83gx7$EJooQ7Fx43yH#{8x';
+$cfg['blowfish_secret'] = 'CfX1la/aG83gx7$EJooQ7Fx43yH#{8x4';
 
 // /**
 //  * phpMyAdmin configuration storage settings.

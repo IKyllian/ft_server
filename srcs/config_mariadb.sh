@@ -1,7 +1,5 @@
 #!/bin/bash
 
-apt-get -y install expect
-
 SECURE_MYSQL=$(expect -c "
 set timeout 10
 spawn mysql_secure_installation
