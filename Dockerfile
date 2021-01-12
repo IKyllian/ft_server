@@ -10,7 +10,6 @@ RUN apt-get update \
 	&& mv /srcs/html.csr /etc/nginx/ssl/ \
  	&& mv /srcs/html.key /etc/nginx/ssl/ \
  	&& mv /srcs/html.pem /etc/nginx/ssl/ \
-	&& apt-get install -y wget zsh git vim && sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)" \
 	&& apt-get install -y expect mariadb-server mariadb-client \
 	&& apt-get install -y php php-common php-fpm php-mysql php-json php-mbstring php-cgi php-zip php-gd php-xml php-pear php-gettext \
 	&& service mysql restart \
